@@ -1,3 +1,21 @@
+@font-face {
+    font-family: "Inter";
+    src: url("./fonts/inter-v12-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-regular.woff2")
+        format("woff2");
+}
+
+@font-face {
+    font-family: "Spectral";
+    src: url("./fonts/spectral-v13-cyrillic_latin_latin-ext_vietnamese-300italic.woff2")
+            format("woff2"),
+        url("./fonts/spectral-v13-cyrillic_latin_latin-ext_vietnamese-800.woff2")
+            format("woff2"),
+        url("./fonts/spectral-v13-cyrillic_latin_latin-ext_vietnamese-800italic.woff2")
+            format("woff2"),
+        url("./fonts/spectral-v13-cyrillic_latin_latin-ext_vietnamese-italic.woff2")
+            format("woff2");
+}
+
 body {
     max-width: 1920px;
     margin: auto;
@@ -90,9 +108,6 @@ body {
     font-size: 14px;
 }
 
-#gallery {
-    /*	min-height: 100vh; */
-}
 .title {
     text-align: center;
     padding-block: 2em;
