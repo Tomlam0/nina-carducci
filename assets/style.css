@@ -127,6 +127,7 @@ img {
     color: #fff;
     background-color: #7d7530;
     border-radius: 0;
+    cursor: pointer;
 }
 .nav-pills .nav-link {
     color: #000;
@@ -147,6 +148,7 @@ img {
     height: 100%;
     object-fit: cover;
     padding: 0.5em;
+    cursor: pointer;
 }
 .mg-prev,
 .mg-next {
